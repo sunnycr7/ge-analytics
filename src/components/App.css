@@ -1,0 +1,108 @@
+.App {
+  text-align: center;
+  padding: 80px;
+}
+body {
+  overflow: hidden;
+}
+.canvas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-y: hidden;
+}
+.Select {
+  z-index: 100;
+  width: 200px;
+  margin-right: 12px;
+  display: inline-block;
+}
+.Selectors {
+  display: inline-block;
+  width: 100%;
+  margin: 12px 40px;
+  z-index: 50;
+}
+.Selectors .DepartmentTitle {
+  margin-top: -40px;
+}
+.Selectors .Export {
+  float: right;
+}
+.ExportBtn {
+  width: 100px;
+  height: 34px;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #007C95;
+  font-size: 15px;
+  border: none;
+}
+.analyzeBtn {
+  width: 150px;
+  height: 34px;
+  border-radius: 4px;
+  color: #fff;
+  background-color: #007C95;
+  font-size: 15px;
+  border: none;
+  margin-left: 15px;
+}
+
+.borderExterior {
+  height: 10px;
+  width: 100%;
+}
+
+.rightFilters {
+  display: inline-flex;
+  float: right;
+}
+
+.ui.grid.new-grid {
+  margin-top: 4px;
+  padding: 15px 30px;
+  background-color: #f7f7f7;
+  height: 1000px;
+  box-sizing: border-box;
+}
+
+.graph-block {
+  background-color: #fff;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+
+.graph-dv1 {
+  height: 400px;
+}
+
+.graph-dv2 {
+  height: 400px;
+}
+
+.dashboard-title {
+  font-family: Lato,'Helvetica Neue',Arial,Helvetica,sans-serif;
+  font-size: 22px;
+  color: #295db8;
+  font-weight: 400;
+}
+
+/* This removed the loading symbol from DV */
+/* Comment out to add the loading symbol for each DV visualization */
+.bi_loadingContainer {
+  display: none !important;
+}
+.bi_filterbar_tilewrapper {
+  height: 100% !important;
+  max-height: 100% !important;
+}
+[class^="bi_filterbar_padding"] {
+  width: 0 !important;
+}
+.bi_filterbar_filterscontainer_clip_div {
+  overflow-y: hidden;
+}
+#__oj_zorder_container {
+  display: none;
+}
